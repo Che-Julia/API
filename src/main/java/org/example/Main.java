@@ -8,7 +8,7 @@ public class Main {
         post.patronymic = "Иванович";
         post.phone = "+7 (888) 111-11-22";
         post.surname = "Иванов";
-        post.subscription = "true";
+        post.subscription = Boolean.parseBoolean("true");
 
         post.birthday = new FormDate();
         post.birthday.day = 13;
